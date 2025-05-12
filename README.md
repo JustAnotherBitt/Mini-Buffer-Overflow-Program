@@ -41,4 +41,4 @@ Use GDB, `pattern_create`, `pattern_offset`, and `objdump` to analyze and exploi
 
 ## ⚠️ Disclaimer
 
-> This code is vulnerable **by design**. Use it **only in isolated environments** for learning and ethical hacking purposes. Never deploy or run this code in production systems.
+> This code is vulnerable **by design**. Use it **only in isolated environments** for learning and ethical hacking purposes. 
