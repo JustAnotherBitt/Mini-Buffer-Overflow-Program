@@ -17,7 +17,7 @@ sudo apt install gcc-multilib libc6-dev-i386
 Then, compile the program with:
 
 ```bash
-gcc -m32 -fno-stack-protector -z execstack -std=c99 cofre.c -o cofre2
+gcc -m32 -fno-stack-protector -z execstack -std=c99 vault.c -o vault
 ```
 
 ### Explanation of flags:
@@ -30,7 +30,7 @@ gcc -m32 -fno-stack-protector -z execstack -std=c99 cofre.c -o cofre2
 ## ✅ Usage
 
 ```bash
-./cofre2
+./vault
 ```
 
 You’ll be prompted to enter a password. Try exploiting it using buffer overflow techniques.
